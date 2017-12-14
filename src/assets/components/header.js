@@ -15,7 +15,7 @@ export default class Header extends React.Component {
             <Icon android="md-menu" style={styles.menuIcon}/>
           </Button>}
 
-        <Image source={require('../../img/logo.png')} style={styles.logo} />
+        <Image source={require('../assets/images/logo.png')} style={styles.logo} />
 
         {Platform.OS === 'android' &&
           <Button onPress={onCameraButtonPress} transparent>
